@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 
 interface BadgeProps {
   containerStyles: string
-  icon: string
+  icon: React.ReactNode
   endCountNum: number
   endCountText: string
   badgeText: string

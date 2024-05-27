@@ -62,6 +62,7 @@ export function Hero() {
                   endCountNum={12}
                   endCountText="+"
                   badgeText=""
+                  containerStyles={''}
                 />
               </dd>
             </div>
@@ -74,6 +75,7 @@ export function Hero() {
                   endCountNum={768}
                   endCountText="k"
                   badgeText=""
+                  containerStyles={''}
                 />
               </dd>
             </div>
@@ -86,6 +88,7 @@ export function Hero() {
                   endCountNum={153}
                   endCountText="+"
                   badgeText=""
+                  containerStyles={''}
                 />
               </dd>
             </div>

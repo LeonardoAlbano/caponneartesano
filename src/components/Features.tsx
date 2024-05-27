@@ -1,35 +1,44 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-} from '@heroicons/react/24/outline'
+import { RiBriefcaseLine, RiEyeLine, RiBarChart2Line } from 'react-icons/ri'
+import { HiOutlineClipboardCheck, HiOutlinePuzzle } from 'react-icons/hi'
+import { HiArrowTrendingUp } from 'react-icons/hi2'
 
 export default function Features() {
   const features = [
     {
-      name: 'PHOTOGRAPHY',
+      name: 'LEAN MANAGEMENT',
       description:
-        'Lorem ipsum dolor sit amet. ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet. ',
-      icon: CloudArrowUpIcon,
+        'O Lean Management é uma filosofia de gestão que busca maximizar o valor entregue ao cliente, eliminando desperdícios, reduzindo custos e melhorando continuamente os processos, com foco no desenvolvimento das pessoas e na criação de uma cultura de melhoria contínua.',
+      icon: RiBriefcaseLine,
     },
     {
-      name: 'DEVELOPMENT',
+      name: 'GESTÃO VISUAL',
       description:
-        'Lorem ipsum dolor sit amet. ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.',
-      icon: ArrowPathIcon,
+        'A Gestão Visual é uma técnica utilizada na metodologia Lean para tornar os processos mais visíveis e compreensíveis, permitindo uma melhor tomada de decisão e a identificação de oportunidades de melhoria.',
+      icon: RiEyeLine,
     },
     {
-      name: 'SECURITY',
+      name: 'TRABALHO PADRONIZADO',
       description:
-        'Lorem ipsum dolor sit amet. ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.',
-      icon: FingerPrintIcon,
+        'O Trabalho Padronizado é uma técnica do Lean Management que consiste em documentar os processos e estabelecer padrões para as atividades, visando a melhoria contínua, a redução de variações e o aumento da eficiência e qualidade das operações.',
+      icon: RiBarChart2Line,
     },
     {
-      name: 'LOCKED',
+      name: 'PLANNED MAINTENANCE',
       description:
-        'Lorem ipsum dolor sit amet. ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.ipsum dolor sit amet.',
-      icon: LockClosedIcon,
+        'O Planned Maintenance é uma estratégia de manutenção preventiva adotada na metodologia Lean para garantir a confiabilidade dos equipamentos, reduzir custos com manutenção corretiva e aumentar a eficiência da produção.',
+      icon: HiOutlineClipboardCheck,
+    },
+    {
+      name: 'MÉTODO A3',
+      description:
+        'O Método A3 é uma ferramenta do Lean Management utilizada para solucionar problemas de forma estruturada e colaborativa, seguindo um processo de análise, planejamento, implementação e verificação, com o objetivo de alcançar melhorias sustentáveis nos processos.',
+      icon: HiOutlinePuzzle,
+    },
+    {
+      name: 'FLUXO CONTINUO',
+      description:
+        'O Fluxo Contínuo é uma estratégia da metodologia Lean que busca eliminar os desperdícios e manter a produção fluindo de forma constante e sem interrupções, permitindo a entrega de valor ao cliente de forma mais rápida e eficiente.',
+      icon: HiArrowTrendingUp,
     },
   ]
 
@@ -37,25 +46,25 @@ export default function Features() {
     <div>
       <section className="pb-12 xl:py-24">
         <div className="container mx-auto">
-          <h2 className="section-title mx-auto mb-2 text-center xl:mb-3">
-            Key Features
+          <h2 className="mx-auto mb-2 text-center text-4xl font-bold text-primary xl:mb-3 ">
+            Transformando Desafios em Oportunidades
           </h2>
 
           <div className="flex flex-col">
             <div className="mx-auto max-w-7xl text-center">
               <p className="mt-2 text-3xl font-bold tracking-tighter sm:text-4xl ">
-                Everything you need to deliver faster.
+                Consultoria Estratégica para Resultados Excepcionais
               </p>
               <p className="mt-6 text-lg leading-8">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid, qui. Voluptatum labore dolorem laborum, voluptate
-                blanditiis corporis impedit inventore aperiam voluptas ullam
-                deserunt consectetur qui soluta vitae, ea itaque commodi!
+                Identificamos e otimizamos os processos de sua empresa para
+                aumentar a eficiência e reduzir custos. Com nossa análise
+                detalhada, implementamos melhorias que tornam seu negócio mais
+                ágil e competitivo no mercado.
               </p>
             </div>
           </div>
 
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <div className="mx-auto mb-16 mt-16 max-w-2xl sm:mb-20 sm:mt-20 lg:mb-24 lg:mt-24 lg:max-w-4xl">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               {features.map((feature) => (
                 <div
@@ -70,9 +79,9 @@ export default function Features() {
                       />
                     </div>
                   </dt>
-                  <dd>
+                  <dd className="space-y-4">
                     <p className="">{feature.name}</p>
-                    <p>{feature.description}</p>
+                    <p className="">{feature.description}</p>
                   </dd>
                 </div>
               ))}
