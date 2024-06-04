@@ -53,13 +53,12 @@ export default function Features() {
           <div className="flex flex-col">
             <div className="mx-auto max-w-7xl text-center">
               <p className="mt-2 text-3xl font-bold tracking-tighter sm:text-4xl ">
-                Consultoria Estratégica para Resultados Excepcionais
+                Maximize a eficiência, Minimize os desperdícios
               </p>
               <p className="mt-6 text-lg leading-8">
-                Identificamos e otimizamos os processos de sua empresa para
-                aumentar a eficiência e reduzir custos. Com nossa análise
-                detalhada, implementamos melhorias que tornam seu negócio mais
-                ágil e competitivo no mercado.
+                Oferecemos treinamentos e consultoria em Lean Manufacturing,
+                para ajudar sua equipe a implementar uma cultura de melhoria
+                contínua e alcançar resultados excepcionais em sua produção.
               </p>
             </div>
           </div>
