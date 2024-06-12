@@ -22,7 +22,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="border-t-2 border-purple-900 bg-transparent py-8">
+    <footer className="border-t-2 border-purple-900 bg-sky-800 bg-transparent py-8 text-white">
       <div className="container mx-auto">
         <div className="flex  items-center justify-between p-3 pb-8 ">
           <div className="w-[350px] space-y-3">
@@ -42,7 +42,7 @@ export function Footer() {
                 className="flex items-center gap-3 "
               >
                 <feature.icon
-                  className="h-[24px] w-[24px] text-blue-700 "
+                  className="h-[24px] w-[24px] text-sky-300 "
                   aria-hidden="true"
                 />
                 {feature.description}

@@ -30,11 +30,11 @@ export function Hero() {
 
             <em className="text-zinc-500">Por - Odacir Mondini</em>
 
-            <div className="pt-8">
+            <div className="pb-20 pt-8">
               <div>
                 <Link href="http://wa.com">
                   <Button className="text-md gap-x-3 border-2 border-green-600 bg-transparent text-green-600 hover:bg-green-600 hover:text-white ">
-                    <RiWhatsappLine />
+                    <RiWhatsappLine size={24} />
                     FALE CONOSCO
                   </Button>
                 </Link>
